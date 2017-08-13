@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<jnlp spec="1.0+" codebase="https://mytimekumar.github.io/" href="spaceinvaders.jnlp">
+<jnlp spec="1.0+" codebase="https://mytimekumar.github.io/pairsgame/" href="spaceinvaders.jnlp">
 
 <information>
 
@@ -8,7 +8,7 @@
 
 <vendor>Steven Kumar</vendor>
 
-<homepage href="https://mytimekumar.github.io/" />
+<homepage href="https://mytimekumar.github.io/pairsgame/" />
 
 <description>Pairs Game</description>
 
