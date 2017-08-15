@@ -1,65 +1,83 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Pairs Card Game </title>
-<style>
-    
- body {background-color: rgb(202, 200, 200);}
-h1   {color: black;}
-p    {color: rgb(74, 73, 73);
-      }
- 
-p.oblique {
-    font-style: oblique;
-}
- 
-h1.solid {
-         font-style: oblique;
-         background-color: rgb(74, 73, 73); 
-  
-}
+<title>Steven Kumar - Pairs Card Game </title>
 
-</style>    
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 </head>
 <body>
 
-    <!-- ... -->
-    <script src=
-      "https://www.java.com/js/deployJava.js"></script>
+	<div class="jumbotron text-center">
+  		<h1>Steven Kumar</h1>
+  		<p>Sun Certified Programmer</p> 
+	</div>
+
+
+	<div class="container">
+  <div class="row">
+    <div class="col-sm-8">
+     <p>
+      <a href="https://mytimekumar.github.io/">  Back to home page  </a> 
+     </p>
+	<script src="https://www.java.com/js/deployJava.js"></script>
     <script>
         // using JavaScript to get location of JNLP
         // file relative to HTML page
         var dir = location.href.substring(0,
             location.href.lastIndexOf('/')+1);
-        var url = dir + "pairsgame.jnlp";
+        var url = dir + "spaceinvaders.jnlp";
         deployJava.createWebStartLaunchButton(url, '1.7.0');
     </script>
     <!-- ... -->
- <a href="https://mytimekumar.github.io/">  Back to home page  </a> 
- <div style="padding:20px;"> 
- <h1 class="solid"> Pairs Game </h1>     
- <img src="cardssreen.png" alt="Pairs Card Game" style="width:450px;height:252px;">
+
+      <h3>Pairs Card Game</h3>
+      
+      <img src="cardssreen.png" alt="Pairs Card Game" style="width:450px;height:252px;">
+ 
+     
     
-<p class="oblique">
-This is a java Swing based Pairs Card game. Which has been designed for development purposes only. </p>
-<p class="oblique">
-You will more likely see a popup screen saying Application Blocked by Java Security. Please click on below link to show how to run jnlp file on your operating system. <a href="https://java.com/en/download/help/jcp_security.xml">  https://java.com/en/download/help/jcp_security.xml </a> 
-</p>
+      <p>
+      This is a java Swing based Pairs Card game. Which has been designed for development purposes only. 
+      </p>
+ 
+      <p>
+		You will more likely see a popup screen saying Application Blocked by Java Security. Please click on below link to show how to run jnlp file on your operating system. <a href="https://java.com/en/download/help/jcp_security.xml">  https://java.com/en/download/help/jcp_security.xml </a> 
+	  </p>
+      
+      <p>
+		Alternatively you can download jar file onto desktop and run via cmd or terminal using below commands: 
+	  </p>
 
-<p class="oblique">
-Alternatively you can download jar file onto desktop and run via cmd or terminal using below commands: </p>
-<p class="oblique">java -jar jar-file </p>
-<p class="oblique">
-Please note to run the jar file from cmd or terminal, you must be in the directory that the jar file has been downloaded to. 
-</p>
-<p class="oblique">
-To download jar file click: <a href=" https://github.com/mytimekumar/pairsgame/">   https://github.com/mytimekumar/pairsgame   </a> and then click on pairsgame.jar in the repository, then in the next screen click view Raw save file to desktop. 
-</p>
-<p class="oblique">
-Please note, I am still looking to add to this project possibly adding a timer. When selecting new game the cards are not shuffling correctly, so cards will show the same position i.e. game already playing. Thanks for looking at my project.
-</p>
+	  <p>
+	  java -jar jar-file
+	  </p>
 
-</div>
+	  <p>
+		Please note to run the jar file from cmd or terminal, you must be in the directory that the jar file has been downloaded to. 
+		</p>
+	  <p>
+		To download jar file click: <a href="https://github.com/mytimekumar/spaceinvaders"> https://github.com/mytimekumar/spaceinvaders </a> and then click on space_invadersdemo.jar in the repository, then in the next screen click view Raw save file to desktop. 
+	  </p>
+	<p>
+	Please note, I am still looking to add to this project possibly adding a timer. When selecting new game the cards are not shuffling correctly, so cards will show the same position i.e. game already playing. Thanks for looking at my project.
+	</p>
+
+
+	  
+      	
+    	</div>
+    </div>
+
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+	
+
 </body>
 </html>
