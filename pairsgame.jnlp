@@ -24,7 +24,7 @@
 
 <j2se version="1.6+" />
 
-<jar href=“pairsgame.jar" />
+<jar href=“pairsgamev2.jar" />
 
 </resources>
 
