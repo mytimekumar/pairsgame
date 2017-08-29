@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<jnlp spec="1.0+" codebase="https://mytimekumar.github.io/spaceinvaders/" href="pairsgame.jnlp">
+<jnlp spec="1.0+" codebase="https://mytimekumar.github.io/pairsgame/" href="pairsgame.jnlp">
 	<information>
 		<title>Pairs Card Game</title>
 		<vendor>Steven Kumar</vendor>
