@@ -1,5 +1,5 @@
-# The URL from which the client is downloaded
-appbase = https://mytimekumar.github.io/pairsgame
+/# The URL from which the client is downloaded
+appbase = https://mytimekumar.github.io/pairsgame/
  
 # UI Configuration
 ui.name = hasCode.com Getdown Example Application
