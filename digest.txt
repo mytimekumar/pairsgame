@@ -1,3 +1,0 @@
-getdown.txt = 913280d88a6b0f8ddf6c072b349b7162
-GetTest-0.0.1-SNAPSHOT.jar = 9b7245152ae1b44d76d4df1093de54fe
-digest.txt = 29033b4ce51403dabd8635ff80fd51ad
