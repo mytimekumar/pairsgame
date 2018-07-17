@@ -12,6 +12,6 @@ java -jar jar-file
 
 To download jar file click on the jar file in this repository and next screen click view Raw save file to desktop.
 
-Please note I am still looking at tweeking this project possibly adding a timer. When selecting new game the cards are not shuffling correctly, so will show the same position i.e. game already playing. Thanks for looking at my project.
+To play this game you do need to have java 1.8 running on your computer. Thanks for looking at my project.
 
 Steven Kumar
